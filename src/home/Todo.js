@@ -23,6 +23,7 @@ const getAllTaskfromLS = () => {
 }
 
 const getCompletedTaskfromLS = () => {
+    console.log('this is me')
     const data = localStorage.getItem('completedTask');
     if (data)
         return JSON.parse(data);
