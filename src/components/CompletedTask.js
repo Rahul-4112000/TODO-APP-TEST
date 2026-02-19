@@ -4,11 +4,11 @@ import { BiCircle } from 'react-icons/bi';
 import { TiDelete } from 'react-icons/ti'
 
 function CompletedTask({ completedTask, removeFromCompletedTask, removeCircleFill, deletefromCompletedTask, deleteIconColor,  renameCompletedTask, hideRenamingCompletedTask }) {
-
+console.log('prepare for third scan');
     return (
         completedTask.map((singleTask, index) =>
-
-            <div className="task" key={index}>
+            
+            <div className="task" key={index} >
 
                 <span className='circle-icon' onMouseUp={() => removeFromCompletedTask(singleTask.id)} onMouseDown={() => removeCircleFill(singleTask.id, false)} onMouseLeave={() => removeCircleFill(singleTask.id, true)} >
                     {
