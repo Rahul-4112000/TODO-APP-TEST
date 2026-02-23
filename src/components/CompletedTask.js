@@ -6,6 +6,7 @@ import { TiDelete } from 'react-icons/ti'
 function CompletedTask({ completedTask, removeFromCompletedTask, removeCircleFill, deletefromCompletedTask, deleteIconColor,  renameCompletedTask, hideRenamingCompletedTask }) {
 console.log('prepare for third scan');
 console.log('for fourth scan');
+console.log('for fifth scan');
     return (
         completedTask.map((singleTask, index) =>
             
