@@ -7,6 +7,7 @@ function CompletedTask({ completedTask, removeFromCompletedTask, removeCircleFil
 console.log('prepare for third scan');
 console.log('for fourth scan');
 console.log('for fifth scan');
+    console.log('for six scan');
     return (
         completedTask.map((singleTask, index) =>
             
